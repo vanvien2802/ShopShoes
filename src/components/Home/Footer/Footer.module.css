@@ -1,0 +1,31 @@
+
+:root {
+    --pink: #ff4e5b;
+    --white : rgb(244, 235, 218);
+    --black: #0c0116;
+    --gray : #272222;
+  }
+
+.footer{
+    width: 100%;
+    height:auto;
+    background-color: var(--gray);
+    color: var(--white);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+  width: 20%;
+  text-align: center;
+}
+
+.box:first-child{
+  width: 20%;
+  text-align:start;
+}
+.box input{
+  height: 44px;
+  text-align: center;
+}

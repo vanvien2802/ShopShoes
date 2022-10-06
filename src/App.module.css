@@ -1,0 +1,45 @@
+.header{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color:#0c0116;
+    z-index: -1;
+}
+
+.navBar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.navBar a{
+    text-decoration: none;
+    font-size: 26px;
+    color: whitesmoke;
+    margin: 16px 0;
+}
+
+
+.navBar a:hover{
+    color: #db5660;
+}
+
+ .bx{
+    color: wheat;
+}
+
+.iconHeader{
+    width: 80px;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
+}
+
+.logoHeader{
+    z-index: 1;
+}
